@@ -64,10 +64,10 @@ const Navbar = () => {
               <Typical
         loop={Infinity }
         steps={[ 
-          'Web Developer', 2000,
-          'Web Designer', 2000,
-          'React JS Developer', 2000,
-          'Javascript Developer', 2000,
+          'Web Developer', 2000,1000,
+          'Web Designer', 2000,1000,
+          'React JS Developer', 2000,1000,
+          'Javascript Developer', 2000,1000
         ]}
         wrapper="b"
       />
