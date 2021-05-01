@@ -1,0 +1,169 @@
+.unrealistic{background: url(../../images/dc.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.unrealistic:hover{
+    background-position: bottom ;
+}
+
+.unrealistic::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.856);
+    width: 100%;
+    height: 100%;
+}
+.photo{background: url(../../images/1324.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.photo:hover{
+    background-position: bottom ;
+}
+
+.photo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;
+}
+.your-it-shop{background: url(../../images/it.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.your-it-shop:hover{
+    background-position: bottom ;
+}
+
+.your-it-shop::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;
+}
+.your-own-journey{background: url(../../images/Journey.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.your-own-journey:hover{
+    background-position: bottom ;
+}
+
+.your-own-journey::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;
+}
+.royal{background: url(../../images/Royal.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.royal:hover{
+    background-position: bottom ;
+}
+
+.royal::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;
+}
+.finix{background: url(../../images/riazzzz.png)no-repeat fixed;
+background-position: top;
+background-size: cover;
+transition: .8s;
+cursor: pointer;
+padding: 150px 0;
+ }
+.finix:hover{
+    background-position: bottom ;
+}
+
+.finix::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 100%;
+}
+
+
+.project {
+    color: #fafafa;
+    position: relative;
+    text-align: center;
+    bottom: 60px;
+    font-size: 38px;
+    margin-bottom: 47px;
+
+}
+
+.project span{
+    color: rgb(230, 27, 27);
+}
+.row {
+    position: relative;
+    
+}
+.feature-of-the-project h4 {
+    position: relative;
+    color: #ffffff;
+    position: relative;
+    bottom: 16px;
+}
+
+.color{color: rgb(212, 37, 37);}
+.features-item ul {
+    list-style: none;
+    padding: 0;
+}
+.features-item ul li span {
+    color: #fb4c4c;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    margin-right: 10px;
+}
+.features-item ul li {
+    display: block;
+    color: #fafafa;
+    line-height: 44px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.features-item ul li a {
+    color: #f71f1f !important;
+    font-weight: 700;
+}
