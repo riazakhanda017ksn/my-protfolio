@@ -2,9 +2,11 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
 import './Project.css'
+import 'aos/dist/aos.css'
+import Aos from 'aos';
 const Project = () => {
     return (
-        <div className='my-project-section pb-4'>
+        <div className='my-project-section '>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -20,17 +22,20 @@ const Project = () => {
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                            <div className="container">
                            <div className="row">
-                                <div className="col-lg-8">
+                                <div className="col-lg-6 " data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           Any user in this website can book a ticket to see a doctor
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          The user can view his booking list if he wants or he does not have access to the admin panel
+                                          The user can view his booking list if he wants 
+                                          </li>
+                                          <li><span><FontAwesomeIcon icon={faCheck} /></span>
+                                          Or he does not have access to the admin panel
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           Users can give any review if they want
@@ -54,21 +59,25 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                                <div className="col-lg-4"></div>
+                                <div className="col-lg-5 animate__animated animate__fadeInLeft">
+                                    <div className="doctor">
+
+                                    </div>
+                                </div>
                             </div>
                            </div>
                         </div>
                     </div>
                 
-                    <div class="carousel-item  ">
+                    <div class="carousel-item ">
                         <div className="photo">
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                             <div className="container">
                            <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-6 " data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
@@ -76,16 +85,16 @@ const Project = () => {
 
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          After that the user will be taken to the login page, after leaving he will log in, after that he will be taken to the payment page.
+                                          In order to purchase the service, the user has to be logged in then
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          After payment,the user can give service review if he wants and then the user can check his order status if he wants.
+                                          and then the payment has to be made
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          This website has an admin panel, admin which can only view admin page, user can only view his order and give feedback.
+                                          A user can give  a review if he wants and 
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          Language:(html, css, react JS, node, Express JS,MongoDB, firebase)
+                                          This website has an admin panel .
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           <a href="https://github.com/riazakhanda017ksn/unrealistic-photography">Here The Client Code Link</a>
@@ -102,7 +111,11 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                              
+                              <div className="col-lg-6">
+                                  <div className="unrealistic-photo " data-aos="fade-right">
+                                      
+                                  </div>
+                              </div>
                             </div>
                            </div>
                         </div>
@@ -112,28 +125,31 @@ const Project = () => {
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                             <div className="container">
                            <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-6 " data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          Here any user can buy the product, after buying it will take him to the login page
+                                          Here any user can buy the product, 
 
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          His order list will appear on the checkout page after log in, his order will be visible
+                                          after buying it will take him to the login page
+
                                           </li>
+                                          <li><span><FontAwesomeIcon icon={faCheck} /></span>
+                                          His order list will appear on the checkout page after log in
+                                          </li>
+                                        
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           If a user goes to the order page, he will be able to see his orders
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          If the admin wants, he can add any product and delete it again if he wants
+                                          If the admin wants, he can add any product and delete any product
                                           </li>
-                                          <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          Language:(html, css, react JS, node, Express JS,mongoDb, firebase)
-                                          </li>
+                                          
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           <a href="https://github.com/riazakhanda017ksn/Your-it-shop">Here The Client Code Link</a>
                                           </li>
@@ -149,7 +165,11 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                              
+                                <div className="col-lg-6">
+                                 <div className="it-shop">
+
+                                 </div>
+                                </div>
                             </div>
                            </div>
 
@@ -161,10 +181,10 @@ const Project = () => {
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                             <div className="container">
                            <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-6" data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
@@ -180,7 +200,10 @@ const Project = () => {
 
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          This website is shown on Google Maps in which the user finds his destination
+                                          This website is shown on Google Maps
+                                          </li>
+                                          <li><span><FontAwesomeIcon icon={faCheck} /></span>
+                                          in which the user finds his destination
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           Language:(HTML, CSS, React.js, Firebase-Authentication)
@@ -198,23 +221,27 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                              
+                                <div className="col-lg-6">
+                                    <div className="your-journey" data-aos="fade-right">
+
+                                    </div>
+                                </div>
                             </div>
                            </div>
 
                         </div>
 
-                    </div>
+                    </div> 
                     <div class="carousel-item ">
 
                         <div className="royal">
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                             <div className="container">
                            <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-6 "data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
@@ -230,7 +257,7 @@ const Project = () => {
 
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
-                                          I also showed there logo and banner dynamically after all i showed description and social logo
+                                          I also showed there logo and banner dynamically .
                                           </li>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
                                           Language:(HTML, CSS, React.js,bootstrap)
@@ -248,7 +275,11 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                              
+                              <div className="col-lg-6">
+                                  <div className="royal-img">
+
+                                  </div>
+                              </div>
                             </div>
                            </div>
 
@@ -261,10 +292,10 @@ const Project = () => {
                             <h2 className='project'>Here Is <span>My Projects</span></h2>
                             <div className="container">
                            <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-6" data-aos="fade-right">
                                     <div className="doctor-portal-container">
                                     <div className="feature-of-the-project">
-                                     <h4>Feature Of <span className='color'>The Project</span></h4>
+                                     <h4>Feature Of <span className='color'> The Project</span></h4>
                                       <div className="features-item">
                                       <ul>
                                           <li><span><FontAwesomeIcon icon={faCheck} /></span>
@@ -298,7 +329,11 @@ const Project = () => {
                                 </div>
                                 </div>
                                 </div>
-                              
+                                 <div className="col-lg-6" data-aos="fade-right">
+                                     <div className="project-img">
+
+                                     </div>
+                                 </div>
                             </div>
                            </div>
 

@@ -1,11 +1,13 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
+import Blog from '../Blog/Blog';
 import MySkill from '../MySkill/MySkill';
 
 import Navbar from '../Navbar/Navbar';
-import Progessbar from '../Progressbar/Progessbar';
+import Optional from '../Optional/Optional';
 import Project from '../Project/Project';
 import Resume from '../Resume/Resume';
+import Services from '../Services/Services';
 
 const HaederManagement = () => {
     return (
@@ -18,7 +20,9 @@ const HaederManagement = () => {
            <AboutMe></AboutMe>
             <Resume></Resume>
             <Project></Project>
-            <Progessbar></Progessbar>
+            <Services></Services>
+            <Blog></Blog>
+            <Optional></Optional>
         </div>
     );
 };

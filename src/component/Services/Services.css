@@ -1,0 +1,63 @@
+.services-part{
+    background:url(../../images/service.jpg)no-repeat fixed top center;
+    background-size: cover;
+    padding:100px 0;
+    position: relative;
+}
+.services-part::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.938);
+
+}
+
+h1.text-center.text-light {
+    color: #ffffff!important;
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 54px;
+}
+body{
+    position: relative;
+}
+.service-container{position: relative;}
+.service-section {
+    position: relative;
+    color: #Fafafa;
+}
+
+.service-logo span {
+    color: #fafafa;
+    width: 50px;
+    min-height: 200px;
+    display: inline-block;
+    float: left;
+    font-size: 32px;
+    position: relative;
+    bottom: 3px;
+}
+.service-section h5 {
+    padding: 6px 0;
+    margin-bottom: 14px;
+}
+.service-section p {
+    color: #d8cdcd;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+}
+.service-container {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.div-project-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}

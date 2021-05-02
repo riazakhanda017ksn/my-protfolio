@@ -72,7 +72,7 @@ const Navbar = () => {
         wrapper="b"
       />
          </h1>
-         <p>Web Desing & Development is my passion ,  Always I Do Hard Work To Make it Success <br/>
+         <p>Web Design & Development is my passion ,  Always I Do Hard Work To Make it Success <br/>
          I Always Try To Make  Something Better Than Others.
          </p>
          <div className="social-icon d-flex">

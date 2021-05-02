@@ -14,14 +14,20 @@ ul.navbar-nav.menual-customize {
     background:black;
    
 }
-ul.menual-customize {
+.menual-customize {
     padding: 0;
 }
-ul.menual-customize li a {
+.menual-customize li a {
     display: inline-block;
     color: #FFF!important;
     padding-left: 60px!important;
-    font-size: 13px;
+    font-size: 14px;
+    transition: .3s;
+    font-weight: 500;
+}
+.menual-customize li a:hover {
+    color: rgb(255, 60, 25)!important;
+   
 }
 
 

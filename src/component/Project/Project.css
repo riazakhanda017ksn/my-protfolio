@@ -1,13 +1,10 @@
-.unrealistic{background: url(../../images/dc.png)no-repeat fixed;
+.unrealistic{background: #fafafa00;
 background-position: top;
 background-size: cover;
 transition: .8s;
 cursor: pointer;
 padding: 150px 0;
  }
-.unrealistic:hover{
-    background-position: bottom ;
-}
 
 .unrealistic::before{
     content: "";
@@ -18,96 +15,80 @@ padding: 150px 0;
     width: 100%;
     height: 100%;
 }
-.photo{background: url(../../images/1324.png)no-repeat fixed;
+.photo{background: rgba(0, 0, 0, 0);
 background-position: top;
 background-size: cover;
 transition: .8s;
-cursor: pointer;
 padding: 150px 0;
  }
-.photo:hover{
-    background-position: bottom ;
-}
+
 
 .photo::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.829);
     width: 100%;
     height: 100%;
 }
-.your-it-shop{background: url(../../images/it.png)no-repeat fixed;
+.your-it-shop{background: rgba(0, 0, 0, 0.801);
 background-position: top;
 background-size: cover;
 transition: .8s;
-cursor: pointer;
 padding: 150px 0;
  }
-.your-it-shop:hover{
-    background-position: bottom ;
-}
+
 
 .your-it-shop::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.685);
-    width: 100%;
-    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    background-position: top;
+    background-size: cover;
+    transition: .8s;
+    padding: 150px 0;
 }
-.your-own-journey{background: url(../../images/Journey.png)no-repeat fixed;
+.your-own-journey{background: rgba(0, 0, 0, 0);
 background-position: top;
 background-size: cover;
 transition: .8s;
-cursor: pointer;
 padding: 150px 0;
  }
-.your-own-journey:hover{
-    background-position: bottom ;
-}
+
 
 .your-own-journey::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.753);
     width: 100%;
     height: 100%;
 }
-.royal{background: url(../../images/Royal.png)no-repeat fixed;
+.royal{background: rgba(255, 255, 255, 0);
 background-position: top;
 background-size: cover;
 transition: .8s;
-cursor: pointer;
 padding: 150px 0;
  }
-.royal:hover{
-    background-position: bottom ;
-}
+
 
 .royal::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.836);
     width: 100%;
     height: 100%;
 }
-.finix{background: url(../../images/riazzzz.png)no-repeat fixed;
+.finix{background: rgba(0, 0, 0, 0);
 background-position: top;
 background-size: cover;
 transition: .8s;
-cursor: pointer;
+
 padding: 150px 0;
  }
-.finix:hover{
-    background-position: bottom ;
-}
+
 
 .finix::before{
     content: "";
@@ -159,11 +140,186 @@ padding: 150px 0;
 .features-item ul li {
     display: block;
     color: #fafafa;
-    line-height: 44px;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 27px;
 }
 .features-item ul li a {
     color: #f71f1f !important;
     font-weight: 700;
+}
+
+.project-img{
+background: url(../../images/finix.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+bottom: 20px;
+
+}
+.project-img:hover{
+
+background-position: bottom;
+
+
+}
+.project-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.288);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.royal-img{
+background: url(../../images/Royal.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.royal-img:hover{
+
+background-position: bottom;
+
+
+}
+.royal-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.288);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.your-journey{
+background: url(../../images/Journey.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.your-journey:hover{
+
+background-position: bottom;
+
+
+
+}
+.your-journey::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.it-shop{
+background: url(../../images/it.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.it-shop:hover{
+
+background-position: bottom;
+
+
+
+}
+.it-shop::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.247);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.unrealistic-photo{
+background: url(../../images/1324.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.unrealistic-photo:hover{
+
+background-position: bottom;
+
+
+
+}
+.unrealistic-photo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.247);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.doctor{
+background: url(../../images/dc.png) no-repeat ;
+background-position: top;
+background-size: cover;
+transition: .8s;
+padding: 200px 0;
+position: relative;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.doctor:hover{
+
+background-position: bottom;
+
+
+
+}
+.doctor::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.247);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+span.carousel-control-next-icon {
+    opacity: 0;
+}
+span.carousel-control-prev-icon {
+    opacity: 0;
 }
